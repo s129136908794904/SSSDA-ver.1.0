@@ -14,18 +14,18 @@ To run the calibration program, please follow the guidance below.
 3. Download the files in the release "v.1.0-alpha", then add all the files and subfolders to your Matlab working path. 
 4. Load your raw data to be calibrated.
 5. Run the following code in your matlab console:
-  
-      species_calied = start(species,targetAccuracy);
-   
+```
+species_calied = start(species,targetAccuracy);
+```   
    Here, the parameter "species" should be changed to the varaible name of your loaded data; the "targetAccuracy" is the target accuracy of calibration, which have two options: "0.05" for achieving final accuracy of 500 ppm, and "integral" for achieving intergral accuracy. If your data is under ~2000 interms of mass resolution, please use "integral", otherwise please use "0.05". The calibrated mass spectra are contained in "species_calied".
   As an example, to calibrate the data in "demoData.mat", please run the following code in your matlab console:
-  
-      species_calied = start(MASS,"0.05");
- 
+```
+species_calied = start(MASS,"0.05");
+``` 
   If your data is under 2000 in mass resolution, please use:
-    
+``` 
       species_calied = start(MASS,"integral");
- 
+```
 
 # Additional notes
 1. The current version of SSSDA is aimed for testing only. Many parameters, like the stepsize and the coefficient space in the optimization process are not open for tuning (we will make them accessiable in future releases). Further, the prototype dataset is not accessiable, which will become modifiable in future releases.
