@@ -1,4 +1,4 @@
-# Welcome to SSSDA ver.1.0
+# Welcome to SSSDA v.1.0-alpha
 Welcome to the Standard-free Single-particle Spectra Data Analyzer. The basic matlab files for calibrating SPMS spectra are released here. 
 
 # Prepare your data to be calibrated
