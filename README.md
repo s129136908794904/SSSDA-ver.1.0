@@ -1,4 +1,4 @@
-# Welcome to SSSDA v.1.0-alpha
+# The SSSDA v.1.0-alpha
 Welcome to the Standard-free Single-particle Spectra Data Analyzer. Currrently, the standard-free calibration module is released. 
 
 # Prepare your data for calibration
