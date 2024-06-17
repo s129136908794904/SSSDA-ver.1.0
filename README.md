@@ -1,7 +1,7 @@
 # Welcome to SSSDA v.1.0-alpha
 Welcome to the Standard-free Single-particle Spectra Data Analyzer. The basic matlab files for calibrating SPMS spectra are released here. 
 
-# Prepare your data to be calibrated
+# Prepare your data for calibration
 A dataset, "demoData.mat", comprising 10,006 SPMS raw spectra of ambient particles (~2000 in mass resolution) is provided for testing, you can download it from the current repository. 
 If you want to calibrte your own SPMS spectra, the data should be in the same structure as the "MASS" variable given in "demoData.mat", which contains two sub domains:
   1. The "set" contains information of particle size and sampling time.
