@@ -2,7 +2,7 @@
 Welcome to the Standard-free Single-particle Spectra Data Analyzer. The basic matlab files for calibrating SPMS spectra are released here. 
 
 # Prepare your data to be calibrated
-A dataset, "demoData.mat", comprising 10,006 SPMS raw spectra of ambient particles (~2000 in resolution) is provided for testing, you can download it from the current repository. 
+A dataset, "demoData.mat", comprising 10,006 SPMS raw spectra of ambient particles (~2000 in mass resolution) is provided for testing, you can download it from the current repository. 
 If you want to calibrte your own SPMS spectra, the data should be in the same structure as the "MASS" variable given in "demoData.mat", which contains two sub domains:
   1. The "set" contains information of particle size and sampling time.
   2. The "pkl" contains the mass spectra. In "pkl", the first column is m/z, the second to forth columns are "peak area", "relative peak area", and "peak     height", respectively. Additionallly, the raw m/z should be in 4 digits, regardless the value is inaccurate before calibration.
