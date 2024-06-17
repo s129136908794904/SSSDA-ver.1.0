@@ -30,4 +30,4 @@ species_calied = start(MASS,"integral");
 # Additional notes
 1. The current version of SSSDA is aimed for testing only. Many parameters, like the stepsize and the coefficient space in the optimization process are not open for tuning (we will make them accessiable in future releases). Further, the prototype dataset is not accessiable, which will become modifiable in future releases.
 2. A GUI form of SSSDA is in progress, which will include modules like spectra clustering (ART-2a, etc.), single particle spectrum plotting, auto peak identification, similarity calculations, and timeseries analysis toolkits. Please wait in patience for future releases.
-3. For any suggestions or cooperations, if you want to develop SSSDA with us, please contact the developer by e-mailing 12231091@mail.sustech.edu.cn, we are eager to receive your feedback and cooperation.
+3. For any suggestions or cooperations, please contact the developer by e-mailing 12231091@mail.sustech.edu.cn, we are eager to receive your feedback and cooperation.
